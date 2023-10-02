@@ -20,9 +20,18 @@ function App() {
 					path='https://crud-server-u706xnhcr-erasim.vercel.app/'
 					element={<Home />}
 				/>
-				<Route path='/register' element={<Register />} />
-				<Route path='/edit/:id' element={<Edit />} />
-				<Route path='/view/:id' element={<Details />} />
+				<Route
+					path='https://crud-server-u706xnhcr-erasim.vercel.app/register'
+					element={<Register />}
+				/>
+				<Route
+					path='https://crud-server-u706xnhcr-erasim.vercel.app/edit/:id'
+					element={<Edit />}
+				/>
+				<Route
+					path='https://crud-server-u706xnhcr-erasim.vercel.app/view/:id'
+					element={<Details />}
+				/>
 			</Routes>
 		</>
 	);
