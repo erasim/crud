@@ -1,0 +1,44 @@
+install from this  site :
+https://mui.com/material-ui/getting-started/installation/
+
+1. link:   npm install @mui/material @emotion/react @emotion/styled
+2. link:   npm install @mui/icons-material
+
+In server file :
+first install 
+npm i express mongoose dotenv
+
+
+****__________*****
+IN SERVER FOLDER
+npm i cors
+
+
+*****************________________________________******************************
+youtube link : https://youtu.be/HhfnuGcB3wc
+
+***HOW TO INSTALL MONGODB IN UBUNTU ***
+
+ download according to this link : https://wiki.crowncloud.net/?How_to_Install_Latest_MongoDB_on_Ubuntu_22_04
+
+ if not install then --
+ Install the MongoDB with the following command. place of this we write this commond in the terminal
+
+echo "deb http://security.ubuntu.com/ubuntu focal-security main" | sudo tee /etc/apt/sources.list.d/focal-security.list
+sudo apt-get update
+sudo apt-get install libssl1.1
+
+then write the commond:
+ Install the MongoDB with the following command. start here 
+ sudo apt-get install -y mongodb-org 
+
+ systemctl start mongod
+systemctl enable mongod
+
+systemctl status mongod
+
+mongo
+
+use admin
+
+***********  ______________________*****************
